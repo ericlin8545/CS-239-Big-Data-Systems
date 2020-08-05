@@ -1,10 +1,10 @@
 # Scheduling with Inter-layer Optimization in Spark
 
-**Abstract**
+## Abstract
 
 We explore the job scheduling policies of Spark and implement a new self-designed one. In the evaluation section, we analyze each scheduling policy and compare the differences between them.
 
-**Introduction**
+## Introduction
 
 As data volumes that requiring processing grow dra- matically, researchers have come up with different big data frameworks to provide efficient data processing solutions, including Hadoop, Dryad and MapReduce.
 
