@@ -1,9 +1,11 @@
 # Scheduling with Inter-layer Optimization in Spark
 
 **Abstract**
+
 We explore the job scheduling policies of Spark and implement a new self-designed one. In the evaluation section, we analyze each scheduling policy and compare the differences between them.
 
 **Introduction**
+
 As data volumes that requiring processing grow dra- matically, researchers have come up with different big data frameworks to provide efficient data processing solutions, including Hadoop, Dryad and MapReduce.
 
 Among big data systems, Spark is a distributed processing program widely used in both industry and research environments. A Spark cluster runs user-submitted programs as jobs; each user job is further broken down into tasks. The tasks are submitted to a single cluster-wide TaskManager that is responsible for allocating these tasks to JVM execution units (executors).
