@@ -14,4 +14,4 @@ One main theme of big data system optimization focuses on scheduling algorithms.
 
 There are two main scheduling schemes within Spark on the task level - FIFO and FAIR. FIFO is straightforward in that the task that is submitted first will be run first. On the other hand, FAIR will keep switching between tasks to achieve fair resource allocations. However, in our view, both scheduling schemes are somewhat myopic in that neither utilizes enough information from the task itself. Therefore, our work considers different attributes of the tasks and provides a harmonic scheduling solution that aims to achieve a balance between the default FIFO and FAIR scheduling schemes in Spark.
 
-[Link to Slides](https://docs.google.com/presentation/d/1d5rue509T-yS69s47fzm_kdjGrngs6fpwXaBm4r35V8/edit#slide=id.p)
+[Link to Slides](https://docs.google.com/presentation/d/1d5rue509T-yS69s47fzm_kdjGrngs6fpwXaBm4r35V8/edit?usp=sharing)
